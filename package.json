@@ -1,0 +1,26 @@
+{
+  "name": "@copperdust/sublime-visual-studio-code-sftp-copy",
+  "version": "1.0.0",
+  "description": "Copies Sublime Text's sftp-config.json information into an appropriate .vscode/sftp.json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "sublime-sftp-to-vs-code"
+  },
+  "bin": {
+    "sublime-sftp-to-vs-code": "index.js"
+  },
+  "keywords": [
+    "sublime",
+    "visual",
+    "studio",
+    "code",
+    "sftp",
+    "config",
+    "copy"
+  ],
+  "author": "Fabio Pampin (Copperdust)",
+  "license": "ISC",
+  "dependencies": {
+    "strip-json-comments": "^3.0.1"
+  }
+}
